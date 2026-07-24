@@ -17,10 +17,11 @@ module.exports = defineConfig({
       ssl: false,      
       sslmode: "disable",    
     },
-      admin: {
+  },
+   admin: {
     vite: (config) => {
       return {
-        server: {
+        server: {   
           host: "0.0.0.0",
           // Allow all hosts when running in Docker (development mode)
           // In production, this should be more restrictive
@@ -39,5 +40,4 @@ module.exports = defineConfig({
       }
     },
   },
-  }
 })
