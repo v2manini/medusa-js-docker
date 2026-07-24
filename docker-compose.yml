@@ -42,6 +42,8 @@ services:
       - NODE_ENV=development
       - DATABASE_URL=postgres://postgres:postgres@postgres:5432/medusa-store
       - REDIS_URL=redis://redis:6379
+      - MEDUSA_ADMIN_EMAIL=${MEDUSA_ADMIN_EMAIL}
+      - MEDUSA_ADMIN_PASSWORD=${MEDUSA_ADMIN_PASSWORD}
     env_file:
       - apps/backend/.env
     volumes:
