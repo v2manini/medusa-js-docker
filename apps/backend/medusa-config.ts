@@ -40,4 +40,10 @@ module.exports = defineConfig({
       }
     },
   },
+    plugins: [
+      {
+        resolve: 'medusa-plugin-content',
+        options: {}
+      }
+    ]
 })
