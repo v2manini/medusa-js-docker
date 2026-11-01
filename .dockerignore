@@ -16,3 +16,5 @@ coverage
 *.log
 dist
 build
+cp-env.sh
+per.sh

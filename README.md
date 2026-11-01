@@ -152,6 +152,14 @@ The storefront is configured via environment variables in `apps/storefront/.env.
 | `NEXT_PUBLIC_BASE_URL` | Base URL of the storefront | `https://localhost:8000` |
 | `NEXT_PUBLIC_STRIPE_KEY` | Stripe publishable key (optional) | — |
 
+
+| Variable | value |
+|----------|-------|
+| `postgres port` | 5432 |
+| `redis port` | 6379 |
+| `medusa backend port` |  9000 |
+| `medusa backend HMR websocket port` | 5173  |
+
 ## Resources
 
 - [Medusa Documentation](https://docs.medusajs.com)
