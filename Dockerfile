@@ -15,5 +15,6 @@ COPY . .
 EXPOSE 9000 5173 
 #storefront 8000
 
-RUN chmod +x start.sh start-storefront.sh
+RUN chmod +x start.sh
+#RUN chmod +x start-storefront.sh
 ENTRYPOINT ["./start.sh"]
