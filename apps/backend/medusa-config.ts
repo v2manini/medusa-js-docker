@@ -44,6 +44,10 @@ module.exports = defineConfig({
       {
         resolve: 'medusa-plugin-content',
         options: {}
-      }
+      },
+      {
+      resolve: '@agilo/medusa-analytics-plugin',
+      options: {},
+      },
     ]
 })
