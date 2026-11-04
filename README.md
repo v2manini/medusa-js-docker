@@ -139,6 +139,9 @@ You can slo run the following command from the root to start both backend and st
 ```bash
 pnpm dev
 ```
+```bash
+docker compose --env-file ./apps/backend/.env up -d
+```
 
 ## Configuration
 
